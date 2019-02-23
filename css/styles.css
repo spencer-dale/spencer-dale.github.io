@@ -51,7 +51,7 @@ body {
 }
 
 #hello {
-	background-image: url("spencer-dale.github.io/images/hello.jpg");
+	background-image: url("images/hello.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 550%;
