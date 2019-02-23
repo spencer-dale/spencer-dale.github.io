@@ -5,6 +5,7 @@ dark-grey: #555;
 */
 
 body {
+	margin: 0px;
 	position: relative;
 	width: 100vw;
 	text-align: center;
@@ -14,8 +15,13 @@ body {
 }
 
 .intro-container {
-	height: 100%;
+	width: 100%;
+	height: 1000px;
 	position: relative;
+	background-image: url("../images/mountains.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .navigator {
@@ -44,6 +50,52 @@ body {
 	padding: 40px;
 }
 
+#hello {
+	background-image: url("../images/hello.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 550%;
+}
+
+#work {
+	background-image: url("../images/texture.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 0 20px 20px white inset;
+}
+
+#projects {
+	background-image: url("../images/texture4.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 0 20px 20px white inset;
+}
+
+#academia {
+	background-image: url("../images/texture5.jpg");
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 0 20px 20px white inset;
+}
+
+#ivey {
+	background-image: url("../images/finance.jpg");
+	background-size: 200% 100%;
+}
+
+#western {
+	background-image: url("../images/engineering.jpg");
+	background-size: 200% 100%;	
+}
+
+#crescent {
+	background-image: url("../images/textbooks.jpg");
+	background-size: 200% 100%;		
+}
+
 .content-container > h1 {
 	font-size: 3em;
 	font-weight: bold;
@@ -59,6 +111,7 @@ body {
 	padding: 20px;
 	position: relative;
 	vertical-align: top;
+
 }
 .item {
 	width: 300px;
@@ -68,10 +121,15 @@ body {
 	font-weight: 100;
 	border: 2px solid black;
 	border-radius: 10px; /* Rounded corners */
+	box-shadow: 5px 5px 50px #999;
 }
 
 .title {
-	background-color: #93a1bf;
+	/*background-color: #93a1bf;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	/*font-variant: small-caps;*/
+	font-weight: 1000;
+	font-size: 1.1em;
 }
 
 .outro-container {
