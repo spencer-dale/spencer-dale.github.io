@@ -3,11 +3,17 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="./css/styles.css">
 		<link rel="stylesheet" type="text/css" href="./css/features.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel|Assistant|Didact+Gothic|Nunito|Quicksand" rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="intro-container">
 			<div style="height: 15px;"></div>
+			<div class="navigator">
+				<a href="#work">Work</a>
+				<a href="#projects">Projects</a>
+				<a href="#academia">Academia</a>
+			</div>
 			<div class="name">
 				<h1>Spencer Dale.</h1>
 				<h2>Student of Engineering and Business. Passion for machine learning and music.</h2>
@@ -15,7 +21,7 @@
 			</div>
 		</div>
 
-		<div id="hello" class="content-container">
+		<div id="hello">
 			<h1>Hello:</h1>
 			<p>I am curious, mysterious, and serious.</p>
 			<p>I will solve equations in exchange for food.</p>
@@ -27,19 +33,19 @@
 			<h1>Work:</h1>
 			<table align="center">
 				<tr>
-					<td class="item" style="background-color: #9facd0">
+					<td id="quant" class="item">
 						<div class="title">
 							<h3>Quantitative Trading Analyst</h3>
 						</div>
 						<div>
 							<h4>_____</h4>
 							<h4>RBC Capital Markets</h4>
-							<h4>Summer 2018</h4>
+							<h4>May 2018 - Aug. 2018</h4>
 						</div>
 						<img src="images/logos/rbc-logo.jpg" style="width: 200px;">
 					</td>
 					<td></td>
-					<td class="item" style="background-color: #b79fd0">
+					<td id="residence" class="item">
 						<div class="title">
 							<h3>Residence Advisor</h3>
 						</div>
@@ -51,14 +57,14 @@
 						<img src="images/logos/uwo2-logo.jpg" style="width: 200px;">
 					</td>
 					<td></td>
-					<td class="item" style="background-color: #9fd0ac">
+					<td id="director" class="item">
 						<div class="title">
 							<h3>Co-Director</h3>
 						</div>
 						<div>
 							<h4>_____</h4>
 							<h4>Tennis & Crafts Camp </h4>
-							<h4>Summer 2016</h4>
+							<h4>Jul. 2016 - Aug. 2016</h4>
 						</div>
 						<img src="images/logos/haliburton-logo.jpg" style="width: 200px;">
 					</td>
@@ -77,9 +83,9 @@
 						<div>
 							<h4>_____</h4>
 							<h4>Cover of Michael Buble's version</h4>
-							<h4>Recorded with Logic Pro - Jan. 2019</h4>
+							<h4>Recorded with Logic Pro (Jan. 2019)</h4>
 						</div>
-						<img src="images/music.jpg" style="width: 200px;">
+						<img src="images/projects/music.jpg" style="width: 200px;">
 					</td>
 					<td></td>
 					<td class="item" style="background-color: #a6d6ee">
@@ -89,9 +95,9 @@
 						<div>
 							<h4>_____</h4>
 							<h4>Reinforcement Learning from scratch</h4>
-							<h4>Python + OpenAI Gym, Sept. 2018</h4>
+							<h4>Python + OpenAI Gym (Sept. 2018)</h4>
 						</div>
-						<img src="images/network.jpg" style="width: 200px;">
+						<img src="images/projects/network.jpg" style="width: 200px;">
 					</td>
 					<td></td>
 					<td class="item" style="background-color: #a6ecee">
@@ -101,9 +107,9 @@
 						<div>
 							<h4>_____</h4>
 							<h4>SolidWorks, Arduino, C++</h4>
-							<h4>2nd Year Design, Apr. 2018</h4>
+							<h4>2nd Year Design (Apr. 2018)</h4>
 						</div>
-						<img src="images/arduino.jpg" style="width: 200px;">
+						<img src="images/projects/arduino.jpg" style="width: 200px;">
 					</td>
 
 				</tr>
@@ -122,7 +128,7 @@
 							<h4>HBA</h4>
 							<h4>2018 - 2021</h4>
 						</div>
-						<img src="images/logos/ivey-logo.jpg" style="width: 200px;">
+						<img src="images/logos/ivey-logo.jpg" style="width: 300px;">
 					</td>
 					<td></td>
 					<td id="western" class="item">
@@ -133,7 +139,7 @@
 							<h4>B.E.Sc. Mechatronic Systems Engineering</h4>
 							<h4>2016 - 2021</h4>
 						</div>
-						<img src="images/logos/uwo-logo.jpg" style="width: 200px;">
+						<img src="images/logos/uwo-logo.jpg" style="width: 250px;">
 					</td>
 					<td></td>
 					<td id="crescent" class="item">
@@ -144,7 +150,7 @@
 							<h4>OSSD</h4>
 							<h4>2012 - 2016</h4>
 						</div>
-						<img src="images/logos/crescent-logo.jpg" style="width: 100px;">
+						<img src="images/logos/crescent-logo.jpg" style="width: 150px;">
 					</td>
 				</tr>
 			</table>
@@ -161,17 +167,23 @@
 						<table>
 							<tr>
 								<td>
-									<h4>Gmail: spencerdale05</h4>
+									<a href="mailto:spencerdale05@gmail.com">
+										<h4>Gmail</h4>
+									</a>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<h4>LinkedIn: spencer-dale</h4>
+									<a href="https://www.linkedin.com/in/spencer-dale">
+										<h4>LinkedIn</h4>
+									</a>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<h4>GitHub: spencer-dale</h4>
+									<a href="https://github.com/spencer-dale">
+										<h4>GitHub</h4>
+									</a>
 								</td>
 							</tr>
 						</table>
