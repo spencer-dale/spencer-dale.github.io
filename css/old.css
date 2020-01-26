@@ -4,16 +4,6 @@ dark-maroon: #500;
 dark-grey: #555;
 */
 
-* {
-    /*margin: 0;*/
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-}
-
 body {
 	margin: 0px;
 	position: relative;
@@ -25,34 +15,27 @@ body {
 }
 
 .intro-container {
-}
-
-.city {	
-	/*max-width: 1440px;*/	
 	width: 100%;
-	height: 760px;
+	height: 1000px;
 	position: relative;
-	background-image: url("../images/city.jpg");
+	background-image: url("../images/mountains.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
 
 .navigator {
-	padding-right: 10px;
-	padding-top: 10px;
-	height: 30px;
-	background-color: #23282a;
+	padding-right: 1vw;
 	text-align: right;
 	letter-spacing: 1px;
 }
 
 .navigator a {
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 .navigator a:link, a:visited {
-	color: #e9e9e9;
+	color: #555;
 	text-decoration: none;
 }
 
@@ -62,35 +45,14 @@ body {
 	letter-spacing: 0.66px;
 }
 
-.intro {
-	padding-left: 400px;
-	text-align: left;
-}
-
-.intro > h1 {
-	line-height: 0.2;
+.name > h1 {
 	font-size: 6em;
-	color: #ffffff;
-	text-shadow: 4px 4px 2px black;
+	color: #500;
 }
 
-.intro > h2 {
+.name > h2 {
 	font-size: 1.3em;
-	color: #ffffff;
-}
-
-.title > h3 {
-	/*line-height: 1.3;*/
-	font-size: 1.3em;
-	font-weight: bold;
-	color: #ffffff;
-}
-
-.role-info > h4 {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 1.0em;
-	font-weight: 1;
-	color: #ffffff;
+	color: #555;
 }
 
 .content-container {
@@ -98,94 +60,54 @@ body {
 	max-width: 100%;
 	overflow: hidden;
 	margin: 120px auto 0;
-	padding: 0px 40px 120px 40px; /* No padding at top */
-	border-radius: 200px;
+	padding: 0px 40px 40px 40px; /* No padding at top */
+	border-radius: 10px;
 	background-color: #e1e4e4;
 }
 
-.hello {
+#hello {
 	margin-top: 120px;
-	margin-left: 20%;
 	padding: 50px 0px 50px 0px;
-	height: 300px;
-	/*vertical-align: middle*/
-	}
-
-.headshot {
-	float: left;
-	width: 300px;
-	height: 300px;
-	background-image: url("../images/headshot.jpg");
-	background-size: 100% 100%;
-}
-
-.profile {
-	margin-left: 350px;
+	vertical-align: middle;
 	background-image: url("../images/hello.jpg");
-	background-size: 80% 100%;
+	background-position: center;
 	background-repeat: no-repeat;
+	background-size: 50% 80%;
 }
 
-.profile-text {
-	margin-left: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: left;
-}
-
-.profile-text > h1 {
-	margin: 0;
-	/*line-height: 70px;*/
-	font-size: 3em;
-	font-weight: bold;
-	color: #2e2e2e;
+#work {
+	color: white;
+	
 }
 
 #quant {
 	background-image: url("../images/work/code.jpg");
 	background-size: 200% 100%;
-	border-radius: 10px;
-	color: white;
 }
 
 #residence {
 	background-image: url("../images/work/residence.jpg");
 	background-size: 200% 100%;
-	border-radius: 10px;
 }
 
 #director {
 	background-image: url("../images/work/tennis.jpg");
 	background-size: 150% 100%;
-	border-radius: 10px;
-}
-
-#projects {
-	background-color: #626a6b;
-	color: #ffffff;
-}
-
-#project {
-	border-radius: 10px;
-	background-color: #23282a;
 }
 
 #ivey {
 	background-image: url("../images/academia/finance.jpg");
 	background-size: 200% 100%;
-	border-radius: 10px;
 }
 
 #western {
 	background-image: url("../images/academia/engineering.jpg");
-	background-size: 200% 100%;
-	border-radius: 10px;
+	background-size: 200% 100%;	
 }
 
 #crescent {
 	background-image: url("../images/academia/textbooks.jpg");
-	background-size: 200% 100%;
-	border-radius: 10px;
+	background-size: 200% 100%;		
 }
 
 .content-container > h1 {
@@ -203,20 +125,20 @@ body {
 	padding: 20px;
 	position: relative;
 	vertical-align: top;
-}
 
+}
 .item {
-	margin: 20;
-	width: 280px;
-	height: 280px;
+	width: 300px;
+	height: 300px;
 	padding: 10px;
 	font-family: "Assistant", sans-serif;
 	font-weight: 100;
-	/*border: 1.5px solid white;*/
-	box-shadow: 5px 5px 50px #555;
+	border: 1.5px solid black;
+	box-shadow: 5px 5px 50px #999;
 }
 
 .title {
+<<<<<<< HEAD
 	/*background-color: #93a1bf;*/
 	font-family: "Quicksand", sans-serif;
 	/*font-variant: small-caps;*/
@@ -226,8 +148,9 @@ body {
 .outro-container {
 	margin-top: 50px;
 	padding: 50px;
-	background-color: #23282a;
+	background-color: #400;
 	text-align: left;
 	color: #FFF;
 }
+
 
